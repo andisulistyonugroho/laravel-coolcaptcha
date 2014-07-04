@@ -1,0 +1,28 @@
+{
+    "name": "drakulil/coolcaptcha",
+    "type": "captcha",
+    "description": "making a google php-cool-captcha to be usable in laravel",
+    "keyword": ["laravel","captcha","google-coolcaptcha","internal"],
+    "homepage": "https://github.com/andisulistyonugroho/laravel-coolcaptcha",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "andisulistyonugroho",
+            "email": "andisulistyonugroho@gmail.com",
+            "homepage": "drakulil.wordpress.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Drakulil\\Coolcaptcha\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
